@@ -4,7 +4,7 @@ Stochastic Optimization by Simulated Annealing and Langevin Dynamics
 
 
 ### Requierments
-Python (3 or higer)
+Python (3 or higher)
 Tensorflow
   
 ### How to use
@@ -13,6 +13,7 @@ opt=SALDOptimizer(learning_rate=0.1, T0=1e-6, fric=100.0, beta=0.99995)
 model.compile(loss='categorical_crossentropy',
               optimizer=opt,
               metrics=['accuracy'])
+```
 
 T0 is the temperature. Default T0=1e-6
 beta is a Simulated Annealing parameter. In the range from 0.9999 to 1
@@ -28,6 +29,6 @@ The comparision was done on CIFAR10 with ResNet, using
 
 
 
-Kirkpatrick, Scott, C. Daniel Gelatt, and Mario P. Vecchi. "Optimization by simulated annealing." science 220.4598 (1983): 671-680.
+Kirkpatrick, Scott, C. Daniel Gelatt, and Mario P. Vecchi. "Optimization by simulated annealing." Science 220.4598 (1983): 671-680.
 
 Vanden-Eijnden, Eric, and Giovanni Ciccotti. "Second-order integrators for Langevin equations with holonomic constraints." Chemical physics letters 429.1-3 (2006): 310-316.
