@@ -9,7 +9,7 @@ Stochastic Optimization by Simulated Annealing and Langevin Dynamics
 Python (3 or higher)
 
 Tensorflow
-  
+ 1.x 
 
 ### How to use
 
@@ -36,6 +36,8 @@ The comparision was done on CIFAR10 with ResNet, using
 
 
 ![Training results](https://github.com/borbysh/SALDOptimizer/blob/master/Figure_1.png)
+
+![Training results](https://github.com/borbysh/SALDOptimizer/blob/master/Figure_2.png)
 
 
 
