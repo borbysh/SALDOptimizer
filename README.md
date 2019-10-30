@@ -6,9 +6,9 @@ Stochastic Optimization by Simulated Annealing and Langevin Dynamics
 
 ### Requirements
 
-Python (3 or higher)
+*Python (3 or higher)
 
-Tensorflow
+*Tensorflow
  1.x 
 
 ### How to use
@@ -21,11 +21,11 @@ model.compile(loss='categorical_crossentropy',
 ```
 
 
-T0 is the temperature. Default T0=1e-6 
+*T0 is the temperature. Default T0=1e-6 
 
-beta is a Simulated Annealing parameter. In the range from 0.9999 to 1. If beta=1 the temperature is constant and Simulated Annealing is not applied. 
+*beta is a Simulated Annealing parameter. In the range from 0.9999 to 1. If beta=1 the temperature is constant and Simulated Annealing is not applied. 
 
-fric is a parameter of the Langevin Dynamics. Default fric=100. 
+*fric is a parameter of the Langevin Dynamics. Default fric=100. 
 If fric=0 the algorithm is equivalent to the Velocity-Verlet algorithm
 
 .
